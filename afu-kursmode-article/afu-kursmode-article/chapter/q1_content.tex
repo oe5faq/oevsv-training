@@ -1,0 +1,106 @@
+\mode<article>{
+    \section*{Frage 1: Ohmsches und Kirchhofsches Gesetz}
+    \addcontentsline{toc}{section}{(1) Ohmsches und Kirchhofsches Gesetz}
+}
+
+\mode<article>{
+Damit das Kirchhofsche Gesetz beschrieben werden kann, müssen zuerst Spannung, Widerstand und Strom sowie das Ohmsche Gesetz eingeführt werden.
+}
+  
+
+\begin{frame}{Spannung, Widerstand, Strom}
+    \framesubtitle{Frage 1: Ohmsches und Kirchhofsches Gesetz }
+
+    \mode<article>{
+    %    \begin{figure}
+    %       \centering{
+           \def\svgwidth{10cm}
+            %\caption{Stromkreis}
+            \input{grafik/1.pdf_tex}
+    %        }
+    %    \end{figure}
+    }
+    
+    \mode<presentation>{
+    %    \begin{figure}
+           %\centering{
+           \def\svgwidth{10cm}
+    %        \caption{Stromkreis}
+            \input{grafik/1.pdf_tex}
+            %}
+    %    \end{figure}
+    }
+    
+    %\begin{figure}
+    %\includegraphics{grafik/sk.jpg}
+    %\end{figure}
+
+    \begin{itemize}
+        \item Die \textbf{Spannung} ist der Potenzial-unterschied zwischen zwei Polen. Formelzeichen $U$, Einheit Volt $V$. 
+
+        \item Der elektrischen \textbf{Widerstand} bestimmt welcher Strom bei einer angelegten Spannung fließt. Formelzeichen $R$, Einheit Ohm $\Omega$.
+
+        \item \textbf{Strom} fließt wenn ein Widerstand zwischen den Polen der Spannungsquelle vorhanden ist. Formelzeichen $I$, Einheit Ampere $A$. 
+
+    \end{itemize}
+
+    \mode<article>{
+        Strom ist die Bewegung freier Elektronen in einem elektrischen Leiter. Je mehr freie Elektronen zu einem Zeitpunkt in dieselbe Richtung fließen, umso höher ist die Stromstärke. Der elektrischer Widerstand ist die Eigenschaft eines Stoffes, den elektrischen Strom mehr oder weniger gut zu leiten. Ein Metall, das Strom gut leitet, hat einen kleinen  elektrischen Widerstand oder umgekehrt: Ein Isolator lässt keinen Strom durchlässt, er hat einen sehr hohen Widerstand.
+        \newline
+        Der Widerstand ist  umgekehrt proportional zum Leitwert. Formelzeichen $G$, Maßeinheit Siemens $S$.  
+        \begin{equation}
+        G = \frac{1}{R}
+        \end{equation}
+    }
+    
+\end{frame}
+
+\begin{frame}{Ohmsches Gesetz}   
+    \framesubtitle{Frage 1: Ohmsches und Kirchhofsches Gesetz }
+    Das Ohmsche Gesetz beschreibt den Zusammenhang zwischen Spannung, Widerstand und Strom.
+    \mode<presentation>{\newline}
+    \begin{itemize}
+    \item Je höher der Widerstand, umso kleiner der Strom und umgekehrt.
+    \item Je höher die Spannumg, umso höher der Strom und umgekehrt.
+    \end{itemize}
+     
+     \begin{align}
+      I=\frac{U}{R}  \qquad U = R * I\qquad R = \frac{U}{I}
+     \end{align}    
+
+     \mode<article>{
+     In der Praxis lassen sich sehr viele Formeln aus dem Ohmschen Gesetz ableiten. zB.: die Leistung (siehe...)
+     }
+\end{frame}
+  
+\begin{frame}{Kirchhofsche Gesetze}
+    \framesubtitle{Frage 1: Ohmsches und Kirchhofsches Gesetz }
+    \begin{itemize}
+    \item \textbf{1. Kirchhofsches Gesetz:} Bei der Parallelschaltung ist der Gesamtstrom gleich der Summe der Teilströme.
+    
+    \mode<article>{
+    Genau genommen lautet die Definition für das erste Kirchhofsche Gesetz: Die Summe der Ströme in einem Knoten ist Null.
+      \begin{equation}
+      \sum\nolimits_{i=2}^N = 0
+      \end{equation}    
+     Also die Summe der zufliessenden Ströme $i$ ist gleich die Summe der abfliessenden Ströme.
+    }  
+    \mode<presentation>{\vspace{1cm}}
+    \item  \textbf{2. Kirchhofsches Gesetz:} Bei der Reihenschaltung ist die Gesamtspannung  die Summe der Teilspannungen.
+    
+    \mode<article>{
+     Für das zweite Kirchhosche Gesetz lautet die genaue Definition: Die Summe der Spannungen in einer Masche ist gleich Null.
+      \begin{equation}
+      \sum\nolimits_{u=2}^N = 0
+      \end{equation}    
+     Also die Summe der Teilspannungen $u$ ist gleich die Summe der Gesamtspannung.
+    }  
+
+     \end{itemize}
+\end{frame}
+  
+
+ 
+ 
+  
+  

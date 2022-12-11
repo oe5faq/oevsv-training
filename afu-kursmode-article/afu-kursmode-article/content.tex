@@ -1,0 +1,44 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ngerman]{babel}
+\usepackage{graphicx}\graphicspath{{grafik/}}
+\usepackage{blindtext}
+
+% Für Vektorgrafik aus InkScape
+\usepackage{color}
+\usepackage{transparent}
+\usepackage{tikz}
+
+% braucht man das ?
+\usetikzlibrary{arrows}
+\usepackage{wrapfig}
+
+\title{Amateurfunk Technik}
+\author{OE5RNL - Testarticle, beamer, (handout) with \LaTeX}
+\date{\today}
+
+\begin{document}
+
+    \mode<all>
+    
+    \begin{frame}
+        \maketitle
+    \end{frame}
+    
+    \mode<article>{
+        \tableofcontents 
+        \pagebreak 
+    }
+    \mode<all>{
+        \input{chapter/q1_content}
+        \input{chapter/q2_content}
+        \input{chapter/q3_content}
+        %\input{chapter/q4_content}
+        
+        %\mode<article>{
+        %    \printindex
+        %}
+    }
+
+\end{document}
